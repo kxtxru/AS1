@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hola mundo!"
+        android:textSize="64sp" />
+
+    <Button
+        android:layout_width="218dp"
+        android:layout_height="131dp"
+        android:id="@+id/btnDale"
+        android:gravity="center"
+        android:text="Boton"/>
+
+</FrameLayout>
