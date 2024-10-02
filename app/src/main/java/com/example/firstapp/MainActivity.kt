@@ -11,13 +11,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Referencia al botón
-        val btnDale: Button = findViewById(R.id.btnDale)
-
-        // Acción del botón
-        btnDale.setOnClickListener {
-            // Acción cuando se presiona el botón (Ejemplo: mostrar un mensaje Toast)
-            Toast.makeText(this, "¡Botón presionado!", Toast.LENGTH_SHORT).show()
-        }
     }
 }
